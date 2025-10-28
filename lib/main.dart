@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: RoutesString.authPage,
+      initialRoute: RoutesString.onBoarding,
       routes: routes,
     );
   }

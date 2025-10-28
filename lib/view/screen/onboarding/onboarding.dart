@@ -16,14 +16,13 @@ class OnBoarding extends StatelessWidget {
     final onBoardingViewModel = Provider.of<OnBoardingViewModel>(context);
     final shareProvider = Provider.of<ShareProvider>(context);
     return Scaffold(
-      
       backgroundColor: AppColor.primaryColor,
       body: SafeArea(
         child: Stack(
           children: [
             Positioned(
               left: shareProvider.width * -0.1,
-              top: shareProvider.height * 0.01,
+              top: shareProvider.height * 0.09,
 
               child: SizedBox(
                 width: shareProvider.width + 30,
